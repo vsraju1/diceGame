@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<!--
+<script>
+    function myfunction(){
+       document.querySelector("#p1-n2").style.visibility = "visible";
+      document.querySelector("#p1-n3").style.visibility = "visible";
+      document.querySelector("#p1-n4").style.visibility = "visible";
+      document.querySelector("#p1-n5").style.visibility = "visible";
+      document.querySelector("#p1-n6").style.visibility = "visible";
+      document.querySelector("#p2-n2").style.visibility = "visible";
+      document.querySelector("#p2-n3").style.visibility = "visible";
+      document.querySelector("#p2-n4").style.visibility = "visible";
+      document.querySelector("#p2-n5").style.visibility = "visible";
+      document.querySelector("#p2-n6").style.visibility = "visible"; 
+      document.querySelector("#winner1").style.visibility = "hidden";
+     document.querySelector("#winner2").style.visibility = "hidden";
+     document.querySelector("#tie").style.visibility = "hidden"; 
+    }
+</script>
+-->
+
+<body onload="myfunction();">
+    <h1>Refresh Me</h1>
+    <div class="players" id="players">
+        <div class="player">
+            <p class="playerName">Player 1</p>
+            <div class="dice">
+
+                <div class="dicenumber" id="p1-n1">
+
+                </div>
+                <div class="dicenumber" id="p1-n2">
+
+                </div>
+                <div class="dicenumber" id="p1-n3">
+
+                </div>
+                <div class="dicenumber" id="p1-n4">
+
+                </div>
+                <div class="dicenumber" id="p1-n5">
+
+                </div>
+                <div class="dicenumber" id="p1-n6">
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="player">
+            <p class="playerName">Player 2</p>
+            <div class="dice">
+                <div class="dicenumber" id="p2-n1">
+
+                </div>
+                <div class="dicenumber" id="p2-n2">
+
+                </div>
+                <div class="dicenumber" id="p2-n3">
+
+                </div>
+                <div class="dicenumber" id="p2-n4">
+
+                </div>
+                <div class="dicenumber" id="p2-n5">
+
+                </div>
+                <div class="dicenumber" id="p2-n6">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="winner">
+        <p id="winner1">Congratulations, Player 1 is winner.</p>
+        <p id="winner2">Congratulations, Player 2 is winner.</p>
+        <p id="tie">ohh looks like the number is same for both players, so Congratulations both are winners.</p>
+    </div>
+<script src="./script.js"></script>
+</body>
+
+</html>
